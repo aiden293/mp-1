@@ -100,7 +100,6 @@ footer {
   }
 }
 
-/* calculator styling */
 #calculator { margin-top: 2rem; }
 
 .calc-row { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;}
@@ -109,4 +108,4 @@ footer {
 
 .calc-output { margin-top: 1rem; }
 
-.calc-output.negative { color: red; } /* 또는 background: red; color: white; */
+.calc-output.negative { color: red; } 

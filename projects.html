@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects | Resume</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <div id="page-wrapper">
+
+    <header>
+      <h1>SangHyup Lee's Main Webpage</h1>
+      <p>An online personal website</p>
+    </header>
+
+    <div id="nav-main">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="certs.html">Certificates</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="references.html">References</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h2>Projects</h2>
+
+        <section>
+          <h3>Personal Resume Website</h3>
+          <p>
+            A responsive personal website built using HTML and CSS.
+            The site includes multiple internal pages such as education,
+            experience, projects, and references.
+          </p>
+          <ul>
+            <li>Used semantic HTML tags (header, nav, main, footer).</li>
+            <li>Implemented responsive layout using Flexbox and media queries.</li>
+            <li>Focused on clean structure and usability.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Academic Web Projects</h3>
+          <p>
+            A collection of coursework projects developed during Computer Science
+            classes at Boston University.
+          </p>
+          <ul>
+            <li>Practiced front-end fundamentals with HTML and CSS.</li>
+            <li>Applied JavaScript basics for interactive features.</li>
+            <li>Used Git and GitHub for version control.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Future Projects</h3>
+          <p>
+            This section will be expanded with additional projects,
+            including JavaScript-based applications and data-driven tools.
+          </p>
+        </section>
+
+        <section id="calculator-section">
+          <h3>JavaScript Calculator (Coming Soon)</h3>
+
+          <p>
+            A JavaScript calculator will be added to this section as part of MP1.
+            The calculator will include two input boxes, multiple operation
+            buttons, and a dynamic output display.
+          </p>
+        </section>
+        <section id="calculator">
+        <h2>JavaScript Calculator</h2>
+
+        <div class="calc-inputs">
+          <div class="calc-field">
+            <label for="first-number">First Number</label>
+            <input type="text" id="first-number">
+          </div>
+
+          <div class="calc-field">
+            <label for="second-number">Second Number</label>
+            <input type="text" id="second-number">
+          </div>
+        </div>
+
+        <div class="calc-buttons">
+          <button onclick="addition()">+</button>
+          <button onclick="subtraction()">-</button>
+          <button onclick="multiplication()">*</button>
+          <button onclick="division()">/</button>
+          <button onclick="power()">**</button>
+          <button onclick="clearAll()">Clear</button>
+        </div>
+
+        <h3 id="output">Result: (waiting)</h3>
+      </section>
+      </main>
+    </div>
+
+    <footer>
+        <p> All Rights Reserved &#169; 2026 SangHyup Lee <a href=''>Credits</a></p>
+    </footer>
+    <script src="calculator.js"></script>
+  </div>
+</body>
+</html>

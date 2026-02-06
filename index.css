@@ -7,6 +7,9 @@
     width: 80vw;
     background-color: blanchedalmond;
     margin: auto;
+    height: 100vh;       
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -19,6 +22,7 @@ header{
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex: 1; 
 }
 
 main{
@@ -99,7 +103,7 @@ footer {
 /* calculator styling */
 #calculator { margin-top: 2rem; }
 
-.calc-row { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+.calc-row { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;}
 
 .calc-buttons button { cursor: pointer; }
 
